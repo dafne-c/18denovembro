@@ -30,7 +30,7 @@ nav{
     background-color: grey;
     max-width: 80%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
     justify-content: center;
     display: flex;
     align-content: center;
@@ -46,4 +46,34 @@ ul{
 li{
     margin-left: 10px;
     list-style-type: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer{
+    color: #fff;
+    background-color: grey;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 7px;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.boas-vindas{
+    color: #fff;
+    background-color: grey;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
