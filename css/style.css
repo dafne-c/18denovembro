@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color: #dddddd;
+    background-color: #B0C4DE;
 }
 
 .clinica{
     color: #fff;
-    background-color: grey;
+    background-color: #4169E1;
     max-width: 80%;
     padding: 30px;
     margin-top: 50px;
@@ -27,7 +27,7 @@ body{
 
 nav{
     color: #fff;
-    background-color: grey;
+    background-color: #4169E1;
     max-width: 80%;
     padding: 10px;
     margin-top: 7px;
@@ -55,7 +55,7 @@ a{
 
 footer{
     color: #fff;
-    background-color: grey;
+    background-color: #4169E1;
     max-width: 80%;
     padding: 10px;
     margin-top: 7px;
@@ -68,8 +68,7 @@ footer{
 }
 
 .boas-vindas{
-    color: #fff;
-    background-color: grey;
+    background-color: #fff;
     max-width: 80%;
     padding: 10px;
     margin-top: 7px;
@@ -81,6 +80,7 @@ footer{
 .boas-vindas p{
     margin-top: 2px;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .boas-vindas h2{
@@ -90,4 +90,181 @@ footer{
 
 section{
     display: block;
+}
+
+.galeria{
+    background-color: #fff;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    flex-grow: 4;
+    width: 236px;
+    height: 236px;
+    margin: 8px;
+}
+
+
+
+/* Para a tela de Login, utilize seu conhecimento de desenvolva um formulário (mais caprichado possível) contendo campos de entrada para e-mail, senha e um botão para acessar/efetuar o login. Utilize boas práticas deixando o formulário centralizado na tela e responsivo. */
+
+form{
+    border: 1px solid;
+    padding: 10px;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.login a{
+    color: #000;
+}
+
+.login h2{
+    color: #3754b0;
+    margin-bottom: 10px;
+    border-bottom: #3754b0 solid 1px;
+    padding-bottom: 10px;
+    width: 300px;
+    text-align: center;
+    font-weight: 350;
+}
+
+.login .botao{
+    margin-bottom: 10px;
+    margin: 0;
+    background-color: #B0C4DE;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login input{
+    width: 300px;
+    padding: 7px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+
+.login .recuperacao{
+    margin-top: 20px;
+}
+
+.recuperacao{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label{
+    color: #3754b0;
+}
+
+input{
+    color: #fff;
+}
+
+.cadastro{
+    background-color: #dceafc;
+    border: 1px solid;
+    border-top: 0;
+    width: 323px;
+    padding: 10px;
+    text-align: right;
+}
+
+button{
+    padding: 4px;
+    width: 110px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: #9dadc2;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+span{
+    font-size: 14px;
+}
+
+.recuperacao a{
+    color: #3754b0;
+    font-weight: 500;
+}
+
+.recuperacao a:hover{
+    text-decoration: underline 1.6px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+        flex-grow: 4;
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+
+    header{
+        font-size: 15px;
+    }
+
+    nav{
+        font-size: 15px;
+    }
+
+    li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .login{
+        max-width: 90%;
+    }
+
+    form{
+        max-width: 300px;
+    }
+
+    .cadastro{
+        width: 300px;
+    }
+
+    .login input{
+        width: 280px;
+        justify-content: center;
+    }
+
+    .login h2{
+        width: 280px;
+    }
+
 }
